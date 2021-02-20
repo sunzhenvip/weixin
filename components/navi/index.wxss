@@ -1,0 +1,27 @@
+/* components/navi/navi.wxss */
+
+
+/* <view class="container">
+    <image class="icon" src="{{latest ? disLeftSrc : leftSrc}}"/>
+    <text class="title">{{title}}</text>
+    <image class="icon" src="{{first ? disRightSrc : rightSrc}}"/>
+</view> */
+
+.container{
+    width: 600rpx;
+    height: 80rpx;
+    background-color: #f7f7f7;
+    border-radius: 2rpx;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    height: 80rpx;
+    width: 80rpx;
+}
+.title{
+    font-size: 28rpx;
+}

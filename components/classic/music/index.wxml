@@ -1,0 +1,10 @@
+<!--components/classic/music/index.wxml-->
+<!-- <text>components/classic/music/index.wxml</text> -->
+
+<view class="">
+    <image src="{{img}}" />
+    <image src="{{img}}" />
+    <image src="{{img}}" />
+    <text class="">{{content}}</text>
+</view>
+
